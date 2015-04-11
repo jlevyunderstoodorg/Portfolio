@@ -1,0 +1,130 @@
+@media screen and (max-width: 450px) {
+	.container { 
+		display: flex;
+		flex-wrap: wrap;
+	}
+	.title-super {
+		font-size: 38px;
+		margin-top: 20px;
+	}
+	.title-small {
+		display: none;
+	}
+	.title-logo {
+		display: none;
+	}
+}
+@media screen and (max-width: 599px) {
+	.title-super {
+		font-size: 38px;
+		margin-top: 20px;
+	}
+	.title-small {
+		display: none;
+	}
+	.title-logo {
+		display: none;
+	}
+	.partner-large {
+		display: none;
+	}
+}
+@media screen and (min-width: 600px) {
+	.title-super {
+		font-size: 40px;
+		margin-top: 20px;
+	}
+	.title-small {
+		font-size: 20px;
+		line-height: 0px;
+		padding-bottom: 20px;
+	}
+	.title-logo {
+		max-width: 70%;
+	}
+	.title-logo-responsive {
+		display: none;
+	}
+	.partner-small {
+		display: none;
+	}
+}
+@media screen and (min-width: 768px) {
+	.title-super {
+		font-size: 50px;
+	}
+	.title-small {
+		font-size: 25px;
+		line-height: 0px;
+	}
+	.title-logo {
+		max-width: 80%;
+	}
+}
+@media screen and (min-width: 990px) {
+	.title-super {
+		font-size: 65px;
+	}
+	.title-small {
+		font-size: 30px;
+		line-height: 0px;
+	}
+}
+@media screen and (min-width: 1200px) {
+	.title-super {
+		font-size: 70px;
+	}
+	.title-small {
+		font-size: 30px;
+		line-height: 0px;
+	}
+}
+@font-face {
+    font-family: 'Circular Book';
+    src: url('fonts/lineto-circular-book.eot');
+    src: url('fonts/lineto-circular-book.eot?#iefix') format('embedded-opentype'),
+         url('fonts/lineto-circular-book.svg#CircularBook') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+body {
+	font-family: 'Circular Book', Arial, sans-serif;
+	 -webkit-font-smoothing: antialiased;
+	 -moz-osx-font-smoothing: grayscale;
+}
+.row {
+	width: 100%;
+}
+.title-logo {
+	margin-top: 20px;		
+}
+.title-logo-responsive {
+	margin-top: 22px;
+	max-width: 100%;
+}
+h1, h2, h4 {
+	color: #7a4183;
+}
+h1 {
+	font-size: 48px;
+}
+h2 {
+	font-size: 24px;
+	line-height: 20px;
+}
+h3 {
+	color: #298fc2;
+	font-size: 24px;
+}
+h4 {
+	font-size: 18px;
+}
+p {
+	color: #696969;
+	font-size: 14px;
+	text-align: left;
+}
+a {
+	color: #426da9;
+	text-decoration: none;
+}
